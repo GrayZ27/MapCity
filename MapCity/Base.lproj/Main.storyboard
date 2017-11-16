@@ -30,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double-tap to drop a pin and view photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmd-2L-bOn">
-                                        <rect key="frame" x="40.5" y="24.5" width="295.5" height="21"/>
+                                        <rect key="frame" x="41.5" y="34.5" width="293.5" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="312" id="8yf-hq-z2G"/>
                                             <constraint firstAttribute="height" constant="21" id="ujX-L8-foB"/>
@@ -38,14 +38,13 @@
                                         <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
-                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
-                                        <size key="shadowOffset" width="2" height="2"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9619460702" green="0.65252792839999996" blue="0.13648822899999999" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Lmd-2L-bOn" firstAttribute="centerX" secondItem="g4q-8D-dPG" secondAttribute="centerX" id="fl0-Ho-Rvc"/>
-                                    <constraint firstItem="Lmd-2L-bOn" firstAttribute="centerY" secondItem="g4q-8D-dPG" secondAttribute="centerY" id="qNU-zD-Xar"/>
+                                    <constraint firstItem="Lmd-2L-bOn" firstAttribute="centerY" secondItem="g4q-8D-dPG" secondAttribute="centerY" constant="10" id="qNU-zD-Xar"/>
                                     <constraint firstAttribute="height" constant="70" id="v5M-FU-ieu"/>
                                 </constraints>
                             </view>
