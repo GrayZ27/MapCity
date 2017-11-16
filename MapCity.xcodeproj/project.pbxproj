@@ -12,9 +12,11 @@
 		064F7C631FBE0E40002032D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C611FBE0E40002032D7 /* Main.storyboard */; };
 		064F7C651FBE0E40002032D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C641FBE0E40002032D7 /* Assets.xcassets */; };
 		064F7C681FBE0E40002032D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C661FBE0E40002032D7 /* LaunchScreen.storyboard */; };
+		1700D12593AA5A65EA0F81DC /* Pods_MapCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE19E12F78CDDEADB3BF5330 /* Pods_MapCity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0441F20CE839A9CBEB05B44D /* Pods-MapCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.release.xcconfig"; sourceTree = "<group>"; };
 		064F7C5A1FBE0E40002032D7 /* MapCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064F7C5D1FBE0E40002032D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		064F7C5F1FBE0E40002032D7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		064F7C641FBE0E40002032D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064F7C671FBE0E40002032D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		064F7C691FBE0E40002032D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE19E12F78CDDEADB3BF5330 /* Pods_MapCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD62AB7291050A75BF40618 /* Pods-MapCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1700D12593AA5A65EA0F81DC /* Pods_MapCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				064F7C5C1FBE0E40002032D7 /* MapCity */,
 				064F7C5B1FBE0E40002032D7 /* Products */,
+				B7C2CCD9321865C64AD3CB67 /* Pods */,
+				F668972B6D1E2A78157DA444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,23 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		B7C2CCD9321865C64AD3CB67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD62AB7291050A75BF40618 /* Pods-MapCity.debug.xcconfig */,
+				0441F20CE839A9CBEB05B44D /* Pods-MapCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F668972B6D1E2A78157DA444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE19E12F78CDDEADB3BF5330 /* Pods_MapCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064F7C6C1FBE0E40002032D7 /* Build configuration list for PBXNativeTarget "MapCity" */;
 			buildPhases = (
+				5249E06FF659D3282BFA7A48 /* [CP] Check Pods Manifest.lock */,
 				064F7C561FBE0E40002032D7 /* Sources */,
 				064F7C571FBE0E40002032D7 /* Frameworks */,
 				064F7C581FBE0E40002032D7 /* Resources */,
+				DFD2CEDE61521085A1D01557 /* [CP] Embed Pods Frameworks */,
+				A16E083747D1AEAD83F5F893 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +189,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5249E06FF659D3282BFA7A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A16E083747D1AEAD83F5F893 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapCity/Pods-MapCity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD2CEDE61521085A1D01557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapCity/Pods-MapCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		064F7C561FBE0E40002032D7 /* Sources */ = {
@@ -304,6 +379,7 @@
 		};
 		064F7C6D1FBE0E40002032D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD62AB7291050A75BF40618 /* Pods-MapCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +395,7 @@
 		};
 		064F7C6E1FBE0E40002032D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0441F20CE839A9CBEB05B44D /* Pods-MapCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
