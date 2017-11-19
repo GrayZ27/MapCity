@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060EBE271FC217F100C998EC /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060EBE261FC217F100C998EC /* DroppablePin.swift */; };
 		064F7C5E1FBE0E40002032D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F7C5D1FBE0E40002032D7 /* AppDelegate.swift */; };
 		064F7C601FBE0E40002032D7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F7C5F1FBE0E40002032D7 /* MapVC.swift */; };
 		064F7C631FBE0E40002032D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C611FBE0E40002032D7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0441F20CE839A9CBEB05B44D /* Pods-MapCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.release.xcconfig"; sourceTree = "<group>"; };
+		060EBE261FC217F100C998EC /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		064F7C5A1FBE0E40002032D7 /* MapCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064F7C5D1FBE0E40002032D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		064F7C5F1FBE0E40002032D7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		064F7C701FBE0F81002032D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				060EBE261FC217F100C998EC /* DroppablePin.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				064F7C601FBE0E40002032D7 /* MapVC.swift in Sources */,
+				060EBE271FC217F100C998EC /* DroppablePin.swift in Sources */,
 				064F7C5E1FBE0E40002032D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
