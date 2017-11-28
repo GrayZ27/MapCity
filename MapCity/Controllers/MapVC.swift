@@ -319,10 +319,3 @@ extension MapVC: UIViewControllerPreviewingDelegate {
     }
     
 }
-
-
-
-
-
-
-
