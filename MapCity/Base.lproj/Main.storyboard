@@ -12,6 +12,7 @@
     <customFonts key="customFonts">
         <array key="Optima.ttc">
             <string>Optima-Bold</string>
+            <string>Optima-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -93,6 +94,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+        <!--PopVC-->
+        <scene sceneID="QPv-ho-APA">
+            <objects>
+                <viewController storyboardIdentifier="PopVC" id="2E3-EL-LIM" customClass="PopVC" customModule="MapCity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I46-1L-vZS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sv4-VA-sKY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4B3-fv-xPu">
+                                <rect key="frame" x="67" y="622" width="240" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double-Tap to dismiss" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAf-24-3SJ">
+                                        <rect key="frame" x="43.5" y="3" width="153.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="IQL-TY-3Gi"/>
+                                    <constraint firstItem="EAf-24-3SJ" firstAttribute="centerX" secondItem="4B3-fv-xPu" secondAttribute="centerX" id="dK2-S1-68s"/>
+                                    <constraint firstAttribute="height" constant="25" id="f29-3s-ln8"/>
+                                    <constraint firstItem="EAf-24-3SJ" firstAttribute="centerY" secondItem="4B3-fv-xPu" secondAttribute="centerY" id="ish-ZX-YKq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sv4-VA-sKY" firstAttribute="leading" secondItem="Xxq-GU-ahZ" secondAttribute="leading" id="HSa-ra-Pg1"/>
+                            <constraint firstItem="Sv4-VA-sKY" firstAttribute="bottom" secondItem="Xxq-GU-ahZ" secondAttribute="bottom" id="kjC-wy-gyQ"/>
+                            <constraint firstItem="Sv4-VA-sKY" firstAttribute="trailing" secondItem="Xxq-GU-ahZ" secondAttribute="trailing" id="lC3-B6-9kj"/>
+                            <constraint firstItem="Sv4-VA-sKY" firstAttribute="top" secondItem="I46-1L-vZS" secondAttribute="top" id="oqa-Vy-Miw"/>
+                            <constraint firstItem="4B3-fv-xPu" firstAttribute="centerX" secondItem="I46-1L-vZS" secondAttribute="centerX" id="tw5-gs-tik"/>
+                            <constraint firstItem="Xxq-GU-ahZ" firstAttribute="bottom" secondItem="4B3-fv-xPu" secondAttribute="bottom" constant="20" id="wAh-e4-qAv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xxq-GU-ahZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="popImageView" destination="Sv4-VA-sKY" id="Otm-Zg-Xmx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xj3-DJ-AAW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="118.29085457271366"/>
         </scene>
     </scenes>
     <resources>

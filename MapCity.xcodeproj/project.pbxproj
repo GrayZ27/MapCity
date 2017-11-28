@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		060EBE271FC217F100C998EC /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060EBE261FC217F100C998EC /* DroppablePin.swift */; };
 		060EBE291FC2499E00C998EC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060EBE281FC2499E00C998EC /* PhotoCell.swift */; };
+		064A3DA91FC8A53C00ADF105 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A3DA81FC8A53C00ADF105 /* Constants.swift */; };
 		064F7C5E1FBE0E40002032D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F7C5D1FBE0E40002032D7 /* AppDelegate.swift */; };
 		064F7C601FBE0E40002032D7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F7C5F1FBE0E40002032D7 /* MapVC.swift */; };
 		064F7C631FBE0E40002032D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C611FBE0E40002032D7 /* Main.storyboard */; };
 		064F7C651FBE0E40002032D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C641FBE0E40002032D7 /* Assets.xcassets */; };
 		064F7C681FBE0E40002032D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064F7C661FBE0E40002032D7 /* LaunchScreen.storyboard */; };
+		066192CE1FCDFE6400C0BE5B /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066192CD1FCDFE6300C0BE5B /* PopVC.swift */; };
 		1700D12593AA5A65EA0F81DC /* Pods_MapCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE19E12F78CDDEADB3BF5330 /* Pods_MapCity.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +23,7 @@
 		0441F20CE839A9CBEB05B44D /* Pods-MapCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.release.xcconfig"; sourceTree = "<group>"; };
 		060EBE261FC217F100C998EC /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		060EBE281FC2499E00C998EC /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		064A3DA81FC8A53C00ADF105 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		064F7C5A1FBE0E40002032D7 /* MapCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064F7C5D1FBE0E40002032D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		064F7C5F1FBE0E40002032D7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		064F7C641FBE0E40002032D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064F7C671FBE0E40002032D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		064F7C691FBE0E40002032D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066192CD1FCDFE6300C0BE5B /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		CE19E12F78CDDEADB3BF5330 /* Pods_MapCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD62AB7291050A75BF40618 /* Pods-MapCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				064F7C5F1FBE0E40002032D7 /* MapVC.swift */,
+				066192CD1FCDFE6300C0BE5B /* PopVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		064F7C721FBE0F93002032D7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				064A3DA81FC8A53C00ADF105 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -249,6 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066192CE1FCDFE6400C0BE5B /* PopVC.swift in Sources */,
+				064A3DA91FC8A53C00ADF105 /* Constants.swift in Sources */,
 				060EBE291FC2499E00C998EC /* PhotoCell.swift in Sources */,
 				064F7C601FBE0E40002032D7 /* MapVC.swift in Sources */,
 				060EBE271FC217F100C998EC /* DroppablePin.swift in Sources */,
